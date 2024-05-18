@@ -1,0 +1,6 @@
+<!DOCTYPE friendsList [
+<!ELEMENT friendsList (friend,newOnes)>
+<!ELEMENT friend (name,item)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT item (#PCDATA)>
+]>

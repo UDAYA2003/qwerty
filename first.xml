@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="first.xslt"?>
+<!-- <!DOCTYPE friendsList SYSTEM "first.dtd"> -->
+<!DOCTYPE friendsList [
+<!ELEMENT friendsList (friend,newOnes)>
+<!ELEMENT friend (name,item,dance)>
+<!ELEMENT item (#PCDATA)>
+]>
+<friendsList>
+    <friend>
+        <name>Robo</name>
+        <item>Jelabi</item>
+    </friend>
+    <friend>
+        <name>Robo</name>
+        <item>Jelabi</item>
+    </friend>
+    <friend>
+        <name>Lobo</name>
+        <item>Putharekulu</item>
+    </friend>
+    <friend>
+        <name>Krish</name>
+        <item>Samosa</item>
+    </friend>
+    <newOnes>
+        <name>Query</name>
+        <item>Donut</item>
+    </newOnes>
+</friendsList>
